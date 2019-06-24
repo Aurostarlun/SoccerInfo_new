@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.soccerinfo.FrameActivity">
+
+    <fragment
+        android:id="@+id/frame_news"
+        android:name="com.example.lenovo.soccerinfo.NewsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10" />
+
+    <fragment
+        android:id="@+id/frame_games"
+        android:name="com.example.lenovo.soccerinfo.GamesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10" />
+
+    <fragment
+        android:id="@+id/frame_info"
+        android:name="com.example.lenovo.soccerinfo.InfoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10" />
+
+    <RadioGroup
+        android:id="@+id/bottomGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioNews"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/news2"
+            android:text="@string/rdo_news_lable" />
+
+        <RadioButton
+            android:id="@+id/radioGames"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/games2"
+            android:text="@string/rdo_games_lable" />
+
+        <RadioButton
+            android:id="@+id/radioInfo"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/info2"
+            android:text="@string/rdo_info_lable" />
+
+    </RadioGroup>
+
+</LinearLayout>
+

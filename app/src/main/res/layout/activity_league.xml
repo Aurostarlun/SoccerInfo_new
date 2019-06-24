@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.soccerinfo.LeagueActivity">
+
+    <Button
+        android:id="@+id/England"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bluegray"
+        android:onClick="onLeague"
+        android:text="@string/btn_England"
+        android:textColor="@color/darkblue" />
+
+    <Button
+        android:id="@+id/Spain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bluegray"
+        android:onClick="onLeague"
+        android:text="@string/btn_Spain"
+        android:textColor="@color/darkblue" />
+
+    <Button
+        android:id="@+id/Italy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bluegray"
+        android:onClick="onLeague"
+        android:text="@string/btn_Italy"
+        android:textColor="@color/darkblue" />
+
+    <Button
+        android:id="@+id/Gemany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bluegray"
+        android:onClick="onLeague"
+        android:text="@string/btn_Gemany"
+        android:textColor="@color/darkblue" />
+
+    <Button
+        android:id="@+id/France"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bluegray"
+        android:onClick="onLeague"
+        android:text="@string/btn_France"
+        android:textColor="@color/darkblue" />
+</LinearLayout>

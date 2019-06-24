@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SoccerInfo</string>
+    <string name="news_name">最新资讯</string>
+    <string name="games_name">今日比赛</string>
+    <string name="info_name">积分榜</string>
+    <string name="rdo_news_lable">资讯</string>
+    <string name="rdo_games_lable">比赛</string>
+    <string name="rdo_info_lable">数据</string>
+    <string name="games_btn_name">观看直播</string>
+    <string name="person_name">昵称:  </string>
+    <string name="person_edit_name">请输入昵称</string>
+    <string name="person_times">资讯浏览量</string>
+    <string name="btn_confirm">确定</string>
+    <string name="btn_England">英超</string>
+    <string name="btn_Spain">西甲</string>
+    <string name="btn_Italy">意甲</string>
+    <string name="btn_Gemany">德甲</string>
+    <string name="btn_France">法甲</string>
+</resources>
